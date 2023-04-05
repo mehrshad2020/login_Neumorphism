@@ -1,0 +1,62 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E4EBF5;
+}
+img{
+    width: 100%;
+}
+.neumorphism_login{
+    padding: 40px 20px;
+    width: 350px;
+    height: 500px;
+    border-radius: 50px;
+    background: #E4EBF5;
+    box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #fff;
+}
+.img_login{
+    width: 70px;
+    height: 70px;
+    padding: 15px;
+    margin: 4rem auto;
+  
+}
+.shadow_inset_ne{
+    border-radius: 50px;
+    background: #E4EBF5;
+    box-shadow: inset 0.2rem 0.2rem 0.5rem #c8d0e7, inset -0.2rem -0.2rem 0.5rem #fff;
+}
+.form-group {
+    margin-bottom: 2rem;
+}
+.form-group input,form button{
+    border: none;
+    height: 40px;
+}
+.form-group input{
+    width: 100%;
+    background-color: transparent;
+    padding-left: 0.8rem;
+}
+form button{
+    width: 100%;
+    border-radius: 50px;
+    background: linear-gradient(to right,#66a1ff ,#2f6dce );
+    box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #fff;
+    color: #fff;
+    cursor: pointer;
+    background-size: 400% 400%;
+    animation: Animatbg 3s ease infinite;
+}
+
+input:focus-visible{
+    outline: 0;
+    border: none;
+}
+@keyframes Animatbg {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
